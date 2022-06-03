@@ -102,25 +102,25 @@
 
 /* Mobile Layout*/
 
-@media(max-width:375px){
-    .main-container{
-        flex-direction: column;
-        margin:88px 24px;
-        width: 327px;
-        height: 1326px;
-    }
+@media (max-width: 375px) {
+  .main-container {
+    flex-direction: column;
+    margin: 88px 24px;
+    width: 327px;
+    height: 1326px;
+  }
 
-    .sedan-section,
-.suvs-section,
-.luxury-section {
-  display: flex;
-  flex-direction: column;
-  width: 327px;
-  height: 442px;
-}
+  .sedan-section,
+  .suvs-section,
+  .luxury-section {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 442px;
+  }
 
-    .car-description p{
-      margin-bottom: 2.5rem;
-    }
+  .car-description p {
+    margin-bottom: 2.5rem;
+  }
 
 }
