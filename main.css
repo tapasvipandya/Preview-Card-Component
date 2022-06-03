@@ -1,56 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:wght@700&family=Outfit:wght@400;700&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    border: 0;
-}
-
-.main-container{
-    display: flex;
-    width: 920px;
-    height: 500px;
-    margin: 171px auto 129px auto;
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
 }
 
-.sedan-section{
-    background:  hsl(31, 77%, 52%);
-}
-.suvs-section{
-    background: hsl(184, 100%, 22%);
-}
-.luxury-section{
-    background: hsl(179, 100%, 13%);
+.main-container {
+  display: flex;
+  width: 920px;
+  height: 500px;
+  margin: 171px auto 129px auto;
 }
 
-.sedan-section,.suvs-section,.luxury-section{
-    display: flex;
-    flex-direction: column;
+.sedan-section {
+  background: hsl(31, 77%, 52%);
+}
+.suvs-section {
+  background: hsl(184, 100%, 22%);
+}
+.luxury-section {
+  background: hsl(179, 100%, 13%);
 }
 
-.car-image img{
-    margin-top: 48px;
-    margin-left: 48px;
+.sedan-section,
+.suvs-section,
+.luxury-section {
+  display: flex;
+  flex-direction: column;
+  width: 307px;
 }
 
-.car-type{
-    color: #fff;
-    font-family: 'Big Shoulders Display',sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+.car-image img {
+  margin-top: 48px;
+  margin-left: 48px;
 }
 
-.car-description p{
-    color: #fff;
-    font-family: 'Lexend Deca',sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    margin-left: 47.5px;
+.car-type {
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
-.car-type,.main-cta{
-    margin-left: 48px;
+.car-description p {
+  color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+  width: 212px;
+  height: 125px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 70%;
+  margin-left: 47.5px;
+  margin-bottom: 83px;
 }
+
+.car-type,
+.main-cta {
+  margin-left: 48px;
+}
+
 
