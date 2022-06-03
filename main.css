@@ -113,7 +113,14 @@
     .sedan-section,
 .suvs-section,
 .luxury-section {
+  display: flex;
+  flex-direction: column;
   width: 327px;
   height: 442px;
 }
+
+    .car-description p{
+      margin-bottom: 2.5rem;
+    }
+
 }
