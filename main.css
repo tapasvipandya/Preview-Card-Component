@@ -99,3 +99,21 @@
   background: hsl(179, 100%, 13%);
   color: white;
 }
+
+/* Mobile Layout*/
+
+@media(max-width:375px){
+    .main-container{
+        flex-direction: column;
+        margin:88px 24px;
+        width: 327px;
+        height: 1326px;
+    }
+
+    .sedan-section,
+.suvs-section,
+.luxury-section {
+  width: 327px;
+  height: 442px;
+}
+}
