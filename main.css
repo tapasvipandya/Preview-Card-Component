@@ -64,4 +64,38 @@
   margin-left: 48px;
 }
 
+.main-cta a {
+  text-decoration: none;
+  height: 48px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding: 11px 31.5px;
+  width: 146px;
+}
 
+.sedan-section .main-cta a {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan-section .main-cta a:hover {
+  background: hsl(31, 77%, 52%);
+  color: white;
+}
+
+.suvs-section .main-cta a {
+  color: hsl(184, 100%, 22%);
+}
+.suvs-section .main-cta a:hover {
+  background: hsl(184, 100%, 22%);
+  color: white;
+}
+.luxury-section .main-cta a {
+  color: hsl(179, 100%, 13%);
+}
+.luxury-section .main-cta a:hover {
+  background: hsl(179, 100%, 13%);
+  color: white;
+}
