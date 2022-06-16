@@ -7,37 +7,37 @@
   border: 0;
 }
 
-.main-container {
+.cars {
   display: flex;
   width: 920px;
   height: 500px;
   margin: 171px auto 129px auto;
 }
 
-.sedan-section {
+.cars__col-1 {
   background: hsl(31, 77%, 52%);
 }
-.suvs-section {
+.cars__col-2 {
   background: hsl(184, 100%, 22%);
 }
-.luxury-section {
+.cars__col-3 {
   background: hsl(179, 100%, 13%);
 }
 
-.sedan-section,
-.suvs-section,
-.luxury-section {
+.cars__col-1,
+.cars__col-2,
+.cars__col-3 {
   display: flex;
   flex-direction: column;
   width: 307px;
 }
 
-.car-image img {
+.cars__col--image img {
   margin-top: 48px;
   margin-left: 48px;
 }
 
-.car-type {
+.cars__col--type {
   color: #fff;
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
@@ -46,7 +46,7 @@
   margin-bottom: 25px;
 }
 
-.car-description p {
+.cars__col--description p {
   color: #fff;
   font-family: "Lexend Deca", sans-serif;
   width: 212px;
@@ -59,12 +59,12 @@
   margin-bottom: 83px;
 }
 
-.car-type,
-.main-cta {
+.cars__col--type,
+.cars__col--cta {
   margin-left: 48px;
 }
 
-.main-cta a {
+.cars__col--cta a {
   text-decoration: none;
   height: 48px;
   background-color: #fff;
@@ -76,26 +76,26 @@
   width: 146px;
 }
 
-.sedan-section .main-cta a {
+.cars__col-1 .cars__col--cta a {
   color: hsl(31, 77%, 52%);
 }
 
-.sedan-section .main-cta a:hover {
+.cars__col-1 .cars__col--cta a:hover {
   background: hsl(31, 77%, 52%);
   color: white;
 }
 
-.suvs-section .main-cta a {
+.cars__col-2 .cars__col--cta a {
   color: hsl(184, 100%, 22%);
 }
-.suvs-section .main-cta a:hover {
+.cars__col-2 .cars__col--cta a:hover {
   background: hsl(184, 100%, 22%);
   color: white;
 }
-.luxury-section .main-cta a {
+.cars__col-3 .cars__col--cta a {
   color: hsl(179, 100%, 13%);
 }
-.luxury-section .main-cta a:hover {
+.cars__col-3 .cars__col--cta a:hover {
   background: hsl(179, 100%, 13%);
   color: white;
 }
@@ -103,23 +103,23 @@
 /* Mobile Layout*/
 
 @media (max-width: 375px) {
-  .main-container {
+  .cars {
     flex-direction: column;
     margin: 88px 24px;
     width: 327px;
     height: 1326px;
   }
 
-  .sedan-section,
-  .suvs-section,
-  .luxury-section {
+  .cars__col-1,
+  .cars__col-2,
+  .cars__col-3 {
     display: flex;
     flex-direction: column;
     width: 327px;
     height: 442px;
   }
 
-  .car-description p {
+  .cars__col--description p {
     margin-bottom: 2.5rem;
   }
 
